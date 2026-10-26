@@ -9,7 +9,8 @@ Set up this repository with the agentic development pattern, using the templates
    templates directory into this repo root, and `prompts/*.md` into `.pi/prompts/`.
 2. Before filling anything, ask me for: the project's one-paragraph goal, the problem it
    solves, who it is for, its value in one line, 2-4 durable principles, current
-   capabilities, and explicit non-goals. Fill `goal-and-requirements.md` from my answers —
+   capabilities, explicit non-goals, and the stack (language, runtime, test runner,
+   boundary-lint tool if any). Fill `goal-and-requirements.md` from my answers —
    not from guesses.
 3. Fill `AGENTS.md` and `architecture.md` consistently with those answers. In
    `architecture.md`, record Decision #1 only if a real structural choice was made;

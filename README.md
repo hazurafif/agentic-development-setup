@@ -22,6 +22,7 @@ playbook/                      the pattern, one topic per numbered doc
   8-module-anatomy.md          module folder layout: SPEC.md + barrel + co-located tests
   9-test-layout.md             where tests live: co-located units + harness folder
   10-test-specs.md             the harness spec + spec-derived coverage
+  11-language-mapping.md       porting the mechanics to Python & other stacks
   case-study-thinkrail.md      the evidence
 templates/                     copy-paste skeletons for new projects (incl. e2e-SPEC.md)
 ```

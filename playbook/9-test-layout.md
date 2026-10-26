@@ -33,8 +33,10 @@ Fixtures are disposable and touch no production system.
 4. **Fixtures are disposable**: no production access, no network, no shared mutable
    state; check them in beside the tests or under the harness, never generated ad hoc
    against real systems.
-5. **Rename per stack freely** (`tests/`, `__tests__`) — the invariants are co-location,
-   a spec-carrying harness folder, and explicit naming of expensive tests.
+5. **Port per stack, keeping the invariants** ([[playbook-language-mapping]]): co-located
+   `*.test.ts` in TypeScript, a mirrored `tests/` tree in Python, `__tests__` elsewhere.
+   What may not change: the harness carries a spec, and expensive tests are explicitly
+   selectable.
 
 ## Source
 

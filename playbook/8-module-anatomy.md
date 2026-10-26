@@ -43,8 +43,9 @@ packages/server/              module root
    `workspaces/`, `auth/` under `server/src/`.
 4. **Dependency edges between siblings are documented in the parent module's spec**,
    not restated in each leaf.
-5. **Naming:** kebab-case folders; spec ids follow the hierarchy
-   (`module-server` → `submodule-server-git`).
+5. **Naming:** follow the language's convention — kebab-case in TypeScript, snake_case in
+   Python ([[playbook-language-mapping]]); spec ids keep the kebab hierarchy
+   (`module-server` → `submodule-server-git`) since they are doc identifiers, not code.
 
 ## Source
 

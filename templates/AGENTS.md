@@ -17,8 +17,8 @@ coherent.}}
 
 - Every package and meaningful directory-level sub-module has a `SPEC.md` stating its
   responsibility, public surface, allowed dependencies, and forbidden reaches.
-- A sub-module exposes an `index.ts` barrel as its only public surface; siblings import
-  through the barrel, never internals.
+- A sub-module exposes one public surface — an `index.ts` barrel in TypeScript,
+  `__init__.py` re-exports in Python — and siblings import through it, never internals.
 - Dependency edges between sibling sub-modules live in the parent module's `SPEC.md`.
 - A change that moves or blurs a boundary updates the owning spec first, in the same
   change as the code.
