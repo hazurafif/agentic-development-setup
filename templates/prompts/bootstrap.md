@@ -20,3 +20,6 @@ Set up this repository with the agentic development pattern, using the templates
    this repo. The copied docs must be fully self-contained.
 5. Stage the files and reply with one proposed Conventional Commit message
    (`docs: bootstrap ...`). Do not commit until I approve.
+6. After I approve, propose the next two scaffold steps and wait: record the stack as
+   `architecture.md` Decision #1, then scaffold the first module folder with its
+   `SPEC.md`. Create neither until I ask.

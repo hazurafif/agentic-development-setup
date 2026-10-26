@@ -15,6 +15,10 @@ know-how repo from its durable context**. An agent's routing must only target in
 files; cross-repo references rot on other machines, trip approval prompts, and confuse
 sessions that lack the external path.
 
+This doc covers the copying mechanism and containment rules. For the greenfield order —
+what to create first and what triggers each artifact — see
+[[playbook-scaffolding-order]].
+
 ## Bootstrap procedure
 
 1. **Copy the set** from `templates/`: `AGENTS.md`, `goal-and-requirements.md`,
