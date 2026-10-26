@@ -2,7 +2,7 @@
 id: goal-and-requirements
 type: goal-and-requirements
 status: active
-title: {{Project name}} — product goal and scope
+title: "{{Project name}} — product goal and scope"
 covers: [product-goal, product-audience, product-principles, product-capabilities, product-non-goals]
 tags: [product, scope]
 ---

@@ -1,9 +1,9 @@
 ---
-id: submodule-{{name}}
+id: "submodule-{{name}}"
 type: submodule-design
 status: active
-title: {{name}} — {{one-line responsibility}}
-parent: {{parent-spec-id}}
+title: "{{name}} — {{one-line responsibility}}"
+parent: "{{parent-spec-id}}"
 depends-on: []
 tags: []
 ---

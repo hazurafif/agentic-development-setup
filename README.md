@@ -19,8 +19,11 @@ playbook/                      the pattern, one topic per numbered doc
   5-commit-discipline.md       conventional commits + handoff hygiene
   6-workflow-loop.md           the end-to-end task loop
   7-applying-the-pattern.md    bootstrapping a new repo from the templates
+  8-module-anatomy.md          module folder layout: SPEC.md + barrel + co-located tests
+  9-test-layout.md             where tests live: co-located units + harness folder
+  10-test-specs.md             the harness spec + spec-derived coverage
   case-study-thinkrail.md      the evidence
-templates/                     copy-paste skeletons for new projects
+templates/                     copy-paste skeletons for new projects (incl. e2e-SPEC.md)
 ```
 
 ## How to use it

@@ -30,7 +30,8 @@ templates/                   copy-paste skeletons; zero explanatory prose
    restate.**
 2. **Templates are dumb.** `templates/` holds pure skeletons with `{{placeholders}}` and
    no explanation — the playbook explains, templates ship. **Rule: explanatory prose never
-   lives in a template.**
+   lives in a template, and every frontmatter placeholder is quoted, so a raw template
+   parses as valid YAML before it is filled.**
 3. **Evidence lives in the case study, not the playbook.** Playbook docs state distilled
    rules; file paths, counts, and commit examples from thinkrail live in
    `playbook/case-study-thinkrail.md` so rule docs stay short.

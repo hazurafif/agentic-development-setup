@@ -2,9 +2,9 @@
 id: architecture
 type: architecture-design
 status: active
-title: {{Project name}} — top-level architecture
+title: "{{Project name}} — top-level architecture"
 parent: goal-and-requirements
-covers: [{{decision-topics}}]
+covers: ["{{decision-topics}}"]
 tags: [architecture]
 ---
 
