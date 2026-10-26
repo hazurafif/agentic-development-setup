@@ -47,3 +47,7 @@ templates/                     copy-paste skeletons for new projects (incl. e2e-
 
 Patterns distilled from [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail)
 (Apache-2.0). Short quotes are cited to their source files for study purposes.
+
+## License
+
+[MIT](LICENSE) — copy the templates freely; attribution appreciated but not required.
