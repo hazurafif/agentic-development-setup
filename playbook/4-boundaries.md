@@ -27,8 +27,9 @@ machinery, not goodwill.
    dependency-direction lint (`check:deps`), boundary conformance (`check:boundaries`),
    seam checks (`check:seams`), public-surface validation against enrolled specs
    (`check:spec-surface`). A rule without a gate is a suggestion.
-5. **Boundary work is spec work.** Moving or blurring a boundary updates the owning spec
-   first and lands the spec change in the same PR ([[playbook-spec-graph]]).
+5. **Boundary work is spec work.** A boundary change follows the spec-first rule
+   ([[playbook-spec-graph]]); the checks in rule 4 verify the spec still matches the
+   code.
 
 ## Source
 

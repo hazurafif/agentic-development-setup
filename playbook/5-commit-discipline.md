@@ -24,8 +24,8 @@ style/chore`; scope = module or area (`feat(locales):`, `fix(server):`, `test(se
 2. **Preserve the session trail in the PR.** When squash-merging, keep the per-step
    commits as the PR body's bullet trail — the merge commit then reads as the session log.
 3. **Spec updates ride with the code.** A PR that changes behavior updates the owning
-   spec and README claims in the same change; look for commits like `docs: record ... in
-   the architecture` inside feature PRs.
+   spec ([[playbook-spec-graph]]) and README claims in the same change; look for commits
+   like `docs: record ... in the architecture` inside feature PRs.
 4. **Handoff hygiene before done:**
    - Review the task-scoped diff (branch vs base) before opening the PR.
    - **Subtraction pass** on nontrivial work: remove avoidable abstractions, state owners,
@@ -33,8 +33,9 @@ style/chore`; scope = module or area (`feat(locales):`, `fix(server):`, `test(se
    - Never add `@ts-ignore`/lint-suppressions to pass a gate — treat the error as a design
      signal; suppression needs explicit user approval.
    - Migrate every occurrence when replacing a pattern, or name the intentional survivors.
-5. **Expensive actions escalate.** Fast gates (lint, typecheck, unit) run freely; suites
-   that spend real tokens or long wall-time need explicit approval.
+5. **Expensive actions escalate** — the verification-order rule owns the policy
+   ([[playbook-workflow-loop]]); history should show it: approval-worthy suites run
+   once, after the commits they gate.
 
 ## Source
 

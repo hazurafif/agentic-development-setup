@@ -30,7 +30,6 @@ through `[[wiki-links]]`, and this file routes instead of explaining.
 
 ## Conventions
 
-- Conventional Commits with a scope (`docs(specs): ...`); imperative subject; body
-  explains the why when it is not obvious.
-- Markdown docs carry YAML frontmatter (`id`, `type`, `status`, `title`, `parent`,
-  `covers`, `tags`) and `[[wiki-links]]`, mirroring the thinkrail spec-graph style.
+- Conventional Commits with a scope — full format in [[playbook-commit-discipline]].
+- Docs carry YAML frontmatter and `[[wiki-links]]` per the spec-graph style
+  ([[playbook-spec-graph]]).

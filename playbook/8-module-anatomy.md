@@ -34,10 +34,9 @@ packages/server/              module root
 
 1. **`SPEC.md` sits at the root of every module and submodule folder**, next to the code
    it governs — not in a central docs folder ([[playbook-spec-graph]]).
-2. **`index.ts` barrel at each submodule root**; siblings import through it, never
-   internals. Named exceptions are allowed where a barrel would defeat code-splitting or
-   a library convention (thinkrail: `packages/ui`, `apps/web/src/panels`) — name them in
-   the parent spec ([[playbook-boundaries]]).
+2. **The barrel sits at the submodule root.** Placement is this doc's concern; the
+   one-public-surface rule and its named exceptions (`packages/ui`,
+   `apps/web/src/panels`) are owned by [[playbook-boundaries]].
 3. **Create a submodule folder for a boundary, not a file count.** The trigger is a new
    publicly owned concept (own surface + own invariants), e.g. thinkrail's `git/`,
    `workspaces/`, `auth/` under `server/src/`.

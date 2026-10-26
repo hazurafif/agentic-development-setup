@@ -30,8 +30,8 @@ The goal doc is the decision procedure, not paperwork:
 
 ### Phase 0 — intent (no code yet)
 
-1. `goal-and-requirements.md` — from `templates/`; fill it by answering its sections in
-   order (Goal → Problem → Who → Value → Principles → Capabilities → Non-goals).
+1. `goal-and-requirements.md` — from `templates/`; fill it by answering its fixed
+   sections in order ([[playbook-doc-formats]], format #1).
 2. `AGENTS.md` — from `templates/`; the routing table and the invariants you already
    know. The Stack section stays a placeholder until step 4.
 3. Commit: `docs: bootstrap {{name}}` — **history begins with intent, not code.**
