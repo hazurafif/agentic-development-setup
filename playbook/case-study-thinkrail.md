@@ -15,7 +15,7 @@ young and moves fast.
 ## What it is
 
 "Agentic IDE that gets better every time you use it" — a thin host around the
-[`pi`](https://github.com/badlogic/pi-mono) coding agent, built by JetBrains. Bun + Turbo
+[`pi`](https://github.com/earendil-works/pi) coding agent, built by JetBrains. Bun + Turbo
 monorepo, TypeScript strict, React 19. The project treats its own development process as a
 feature: specs, agent docs, and gates are first-class product artifacts.
 
@@ -41,7 +41,8 @@ feature: specs, agent docs, and gates are first-class product artifacts.
   Consumes / Forbidden; dense invariants (timeout semantics, ref resolution rules).
 - `.github/SPEC.md` — even the CI pipeline has a module spec with a Boundary.
 - `packages/spec-graph/` — pi extension providing `spec_*` tools; the agent maintains the
-  spec graph itself. `packages/spec-graph/tools/SPEC.md` + `core/SPEC.md` split it further.
+  spec graph itself. `packages/spec-graph/tools/SPEC.md` +
+  `packages/spec-graph/core/SPEC.md` split it further.
 - `.pi/prompts/commit.md` — full text: *"Read the staged changes (`git diff --cached`)
   and write a Conventional Commits message. Use the type that fits (feat/fix/refactor/
   docs/test/chore) with scope `${1:-infer it from the files}`, an imperative subject under
